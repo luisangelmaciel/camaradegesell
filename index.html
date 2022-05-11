@@ -575,7 +575,48 @@
                     </div>
                 </div>
             </div>
-
+            <style>
+                .responsive5 {
+                    padding: 0 6px;
+                    margin: 0px 0;
+                    float: left;
+                    width: 20%;
+                    display: grid;
+                }
+                
+                @media only screen and (max-width: 700px) {
+                    .responsive5 {
+                        width: 50%;
+                        margin: 0px 0;
+                        padding: 0 6px;
+                        display: grid;
+                        width: 20%;
+                    }
+                }
+                
+                @media only screen and (max-width: 1200px) {
+                    .responsive5 {
+                        width: 50%;
+                        margin: 0px 0;
+                        padding: 0 6px;
+                        display: grid;
+                        width: 20%;
+                    }
+                }
+                
+                @media only screen and (max-width: 500px) {
+                    .responsive5 {
+                        width: 50%;
+                        /*  margin: 6px 0;*/
+                        margin: 0px 0;
+                        padding: 0 6px;
+                        display: grid;
+                        width: 25%;
+                    }
+                    /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+                    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+                }
+            </style>
 
         </article>
     </main>
@@ -1634,5 +1675,7 @@
     </script>
 
 </body>
+
+</html>
 
 </html>
